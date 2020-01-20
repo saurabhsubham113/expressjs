@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Register</title>
+        <style>
+            body{
+
+                width: 20%;
+            }
+            label,input {
+                margin: 2px;
+                padding: 2px;
+            }
+            button{
+                margin-top: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Welcome user</h2>
+        <form action="/register" method="POST">
+            <label for="">First name:</label><br>
+            <input type="text" name="firstname">
+            <br>
+            <label for="">last name:</label><br>
+            <input type="text" name="lastname">
+            <br>
+            <label for="">email:</label><br>
+            <input type="email" name="email">
+            <br>
+            <label for="">phone:</label><br>
+            <input type="tel" name="phone">
+            <br>
+            <button>submit</button>
+        </form>
+        
+    </body>
+</html>
